@@ -59,6 +59,23 @@ public class CentipedeHead extends Sprite {
     public void update(TiledMap map) {
 
 
+        
+        for (int i = 0; i < list.size(); i++)
+        {
+
+            if(list.get(i).getY()<0)
+            {
+
+                list.remove(i);
+
+            }
+
+
+        }
+        
+        
+        
+        
         float delta = Gdx.graphics.getDeltaTime();
 
         //Controls which frame to display
