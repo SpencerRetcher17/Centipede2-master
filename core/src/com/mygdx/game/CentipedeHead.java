@@ -59,6 +59,7 @@ public class CentipedeHead extends Sprite {
     public void update(TiledMap map) {
 
 
+        //Remove segment if off screen
         
         for (int i = 0; i < list.size(); i++)
         {
